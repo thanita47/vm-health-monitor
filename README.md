@@ -42,18 +42,6 @@ Both machines run on an isolated virtual network (Host Only / Shared Network), c
 | Operating Systems | Kali Linux (monitor) / Ubuntu Server (target) |
 | Virtualization | UTM (QEMU) |
 
-## Project Structure
-
-```
-vm-health-monitor/
-├── monitor.py            # Main monitoring script
-├── screenshots/           # Screenshots of the system in action
-│   ├── 01-normal-status.png
-│   ├── 02-alert-triggered.png
-│   ├── 03-telegram-alert.jpeg
-│   └── 04-database-log.png
-└── README.md
-```
 
 ## How It Works
 
